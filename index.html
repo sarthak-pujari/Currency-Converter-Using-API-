@@ -1,0 +1,57 @@
+
+<html>
+<head>
+<title>Currency Converter</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="outerContainer">
+        <h2 id="cv">Currency Converter</h2>
+        <form action="">
+            <div class="innerContainer">
+                <p id="enterAmount">Enter Amount</p>
+                <input type="text" name="text1" placeholder="1">
+            </div>
+            <div class="dropDown">
+                <div class="dropdown1">
+                    <p id="fromm">From</p>
+                    <div class="dropSelect1">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="US Flag">
+                        <select name="from">
+                            <option value="USD" selected>USD</option>
+                            <option value="INR">INR</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="AUD">AUD</option>
+                            <option value="CAD">CAD</option>
+                            <option value="JPY">JPY</option>
+                            <option value="CNY">CNY</option>
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="dropdown2">
+                    <p id="to">To</p>
+                    <div class="dropSelect1">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="IN Flag">
+                        <select name="to">
+                            <option value="INR" selected>INR</option>
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="AUD">AUD</option>
+                            <option value="CAD">CAD</option>
+                            <option value="JPY">JPY</option>
+                            <option value="CNY">CNY</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msgg"></div>
+            <button class="btn">Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
